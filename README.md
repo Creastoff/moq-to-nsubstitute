@@ -4,8 +4,8 @@
 - Replace: ````using NSubstitute;````
 
 ## Instance
-- Find: ````new Mock<(.+?)>\((.*?)\)````
-- Replace: ````Substitute.For<$1>($2)````
+- Find: ````new Mock<(.+?)>\(.*?\)````
+- Replace: ````Substitute.For<$1>()````
 
 ## Instance
 - Find: ````\bMock<(.+?)>````
